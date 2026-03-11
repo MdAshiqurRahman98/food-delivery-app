@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { ItemContext } from "../context/ItemContext";
-import ItemCard from "./ItemCard";
 import { FiChevronRight } from "react-icons/fi";
+import ItemCard from './../../../pages/Home/ItemCard/ItemCard';
+import ItemContext from "../../../context/ItemContext";
 
 const ItemSection = ({ title }) => {
     const { items, loading } = useContext(ItemContext);
@@ -19,7 +19,7 @@ const ItemSection = ({ title }) => {
             {/* Mobile: horizontal scroll */}
             <div className="flex gap-4 overflow-x-auto scrollbar-hide">
                 {items.map((item, index) => (
-                    <div key={index} className="min-w-[160px]">
+                    <div key={index} className="min-w-40">
                         <ItemCard item={item} />
                     </div>
                 ))}
