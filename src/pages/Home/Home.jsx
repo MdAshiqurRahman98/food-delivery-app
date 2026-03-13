@@ -1,5 +1,5 @@
-import Banner from '../Banner/Banner';
-import ItemSection from '../ItemSection/ItemSection';
+import Banner from '../../components/Banner/Banner';
+import ItemSection from '../../components/items/ItemSection/ItemSection';
 
 const Home = () => {
     return (

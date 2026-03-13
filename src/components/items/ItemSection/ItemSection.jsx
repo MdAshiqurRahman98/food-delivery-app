@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { FiChevronRight } from "react-icons/fi";
-import ItemCard from './../../../pages/Home/ItemCard/ItemCard';
+import ItemCard from '../ItemCard/ItemCard';
 import ItemContext from "../../../context/ItemContext";
 
 const ItemSection = ({ title }) => {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
-import AddItemModal from './../../../pages/Home/AddItemModal/AddItemModal';
+import AddItemModal from '../../items/AddItemModal/AddItemModal';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
