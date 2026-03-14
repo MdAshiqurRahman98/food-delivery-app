@@ -36,7 +36,7 @@ const Footer = () => {
             </h2>
 
             <p className="text-center mt-4 text-sm">
-                Copyright © Tripp. All Right Reserved
+                Copyright © Tripp. All Rights Reserved.
             </p>
         </div>
     );
