@@ -1,25 +1,23 @@
-import { useContext } from "react";
-import { FiChevronRight } from "react-icons/fi";
-import ItemCard from '../ItemCard/ItemCard';
-import ItemContext from "../../../context/ItemContext";
+import { useSelector } from "react-redux";
+import { useGetItemsQuery } from "../../../services/itemApi";
+import ItemCard from "../ItemCard/ItemCard";
 
 const ItemSection = ({ title }) => {
-    const { items, loading } = useContext(ItemContext);
+    const { data = [], isLoading } = useGetItemsQuery();
 
-    if (loading) return <p className="text-center py-6">Loading...</p>;
+    const addedItems = useSelector((state) => state.items.addedItems);
+
+    const items = [...addedItems, ...(data.Items || data || [])];
+
+    if (isLoading) return <p className="text-center py-6">Loading...</p>;
 
     return (
         <div className="px-4 mt-8">
-            {/* Header */}
-            <div className="flex justify-between items-center mb-4">
-                <h2 className="text-lg font-semibold text-gray-800">{title}</h2>
-                <FiChevronRight className="text-gray-500" />
-            </div>
+            <h2 className="text-lg font-semibold mb-4">{title}</h2>
 
-            {/* Mobile: horizontal scroll */}
-            <div className="flex gap-4 overflow-x-auto scrollbar-hide">
+            <div className="flex gap-4 overflow-x-auto">
                 {items.map((item, index) => (
-                    <div key={index} className="min-w-40">
+                    <div key={index} className="min-w-48">
                         <ItemCard item={item} />
                     </div>
                 ))}
