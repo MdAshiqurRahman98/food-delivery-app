@@ -3,11 +3,11 @@ import ItemSection from '../../components/items/ItemSection/ItemSection';
 
 const Home = () => {
     return (
-        <>
+        <div>
             <Banner></Banner>
             <ItemSection title="Popular"></ItemSection>
             <ItemSection title="Recommended"></ItemSection>
-        </>
+        </div>
     );
 };
 
