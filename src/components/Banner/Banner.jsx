@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <div className="px-4 mt-6">
-            <div className="bg-orange-500 rounded-3xl text-white p-6 flex flex-row justify-evenly items-center text-center">
+            <div className="bg-orange-500 rounded-3xl text-white p-6 flex flex-row justify-between items-center text-center px-24">
 
                 {/* Text */}
                 <div className="flex flex-col">
