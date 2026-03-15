@@ -17,7 +17,7 @@ const ItemSection = ({ title }) => {
 
             <div className="flex gap-4 overflow-x-auto">
                 {items.map((item, index) => (
-                    <div key={index} className="min-w-48">
+                    <div key={index} className="min-w-40">
                         <ItemCard item={item} />
                     </div>
                 ))}
