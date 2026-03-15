@@ -13,7 +13,7 @@ The UI is designed according to the provided design and works across **mobile, t
 
 ---
 
-# 🚀 Live Demo
+<!-- # 🚀 Live Demo
 
 Netlify Deployment:
 
@@ -21,7 +21,7 @@ Netlify Deployment:
 https://your-netlify-link.netlify.app
 ```
 
----
+--- -->
 
 # 📌 Features
 
@@ -46,7 +46,7 @@ https://your-netlify-link.netlify.app
 | Tailwind CSS    | UI styling                 |
 | React Hook Form | Form handling & validation |
 | React Icons     | Icons                      |
-| Netlify         | Deployment                 |
+<!-- | Netlify         | Deployment                 | -->
 
 ---
 
@@ -223,7 +223,7 @@ Styles are located at:
 src/index.css
 ```
 
----
+<!-- ---
 
 # 🚀 Deployment
 
@@ -238,4 +238,4 @@ npm run build
 ### Deploy
 
 Upload the **dist** folder to Netlify
-or connect the GitHub repository for automatic deployment.
+or connect the GitHub repository for automatic deployment. -->
