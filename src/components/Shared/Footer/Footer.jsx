@@ -3,7 +3,7 @@ import { FaGoogle, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="bg-orange-500 text-white mt-12 px-4 py-10">
+        <div className="bg-orange-400 text-white mt-12 px-4 py-10">
 
             {/* Subscribe */}
             <div className="bg-white rounded-xl flex items-center justify-between px-4 py-3">
@@ -12,20 +12,20 @@ const Footer = () => {
                     placeholder="Enter Your Email"
                     className="outline-none text-gray-600 w-full text-sm"
                 />
-                <button className="flex items-center gap-1 text-orange-500 font-semibold">
+                <button className="flex items-center gap-1 bg-orange-500 text-white text-sm px-7 py-2 rounded-xl font-semibold">
                     Subscribe <FiArrowRight />
                 </button>
             </div>
 
             {/* Social Icons */}
             <div className="flex justify-center gap-6 mt-8">
-                <div className="bg-orange-600 p-3 rounded-full">
+                <div className="bg-orange-200 text-orange-500 p-3 rounded-full">
                     <FaGoogle />
                 </div>
-                <div className="bg-orange-600 p-3 rounded-full">
+                <div className="bg-orange-200 text-orange-500 p-3 rounded-full">
                     <FaTwitter />
                 </div>
-                <div className="bg-orange-600 p-3 rounded-full">
+                <div className="bg-orange-200 text-orange-500 p-3 rounded-full">
                     <FaInstagram />
                 </div>
             </div>
