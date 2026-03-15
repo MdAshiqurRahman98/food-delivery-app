@@ -13,6 +13,16 @@ The UI is designed according to the provided design and works across **mobile, t
 
 ---
 
+# 🚀 Live Demo
+
+Netlify Deployment:
+
+```
+https://your-netlify-link.netlify.app
+```
+
+---
+
 # 📌 Features
 
 * Fetch items from API using **RTK Query**
@@ -36,6 +46,7 @@ The UI is designed according to the provided design and works across **mobile, t
 | Tailwind CSS    | UI styling                 |
 | React Hook Form | Form handling & validation |
 | React Icons     | Icons                      |
+| Netlify         | Deployment                 |
 
 ---
 
@@ -211,3 +222,20 @@ Styles are located at:
 ```
 src/index.css
 ```
+
+---
+
+# 🚀 Deployment
+
+The application can be deployed using **Netlify**.
+
+### Build Project
+
+```
+npm run build
+```
+
+### Deploy
+
+Upload the **dist** folder to Netlify
+or connect the GitHub repository for automatic deployment.
