@@ -19,7 +19,7 @@ const Banner = () => {
                 {/* Image */}
                 <img
                     src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
-                    alt="food"
+                    alt="Food"
                     className="w-48 mt-6"
                 />
             </div>
